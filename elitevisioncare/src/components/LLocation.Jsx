@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-export default function Location() {
+export default function LLocation() {
   const address = "800 S Gay St, Knoxville, TN 37929";
 
   const encodedAddress = encodeURIComponent(address);
