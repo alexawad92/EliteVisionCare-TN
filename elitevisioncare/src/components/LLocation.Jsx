@@ -8,7 +8,7 @@ export default function LLocation() {
   const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodedAddress}`;
 
   return (
-    <section id="location">
+    <section id="ocation">
       <h2 className="text-4xl font-bold text-center mb-8">Location</h2>
 
       <div className="rounded-3xl overflow-hidden shadow">
