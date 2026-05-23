@@ -5,7 +5,7 @@ import About from "./About";
 import Provider from "../components/Provider";
 import Hours from "../components/Hours";
 import Footer from "../components/Footer";
-import LLocation from "../components/LLocation.Jsx";
+import LocationOnMap from "../components/LocationOnMap";
 export default function Home() {
   return (
     <>
@@ -20,7 +20,8 @@ export default function Home() {
           </div>
 
           <div>
-            <LLocation />
+            {" "}
+            <LocationOnMap />
           </div>
         </div>
       </section>
